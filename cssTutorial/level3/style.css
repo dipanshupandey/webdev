@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMIILpZMOWa6s-Gfs2_lgRuYdGkdnqMzt8JV4KFq61azrdabA52Gxz20Mg0lG2OG0nMggQnNRGSPp26VQPhqWSnK1Q3pC5qnrprIzs9uVH89Ba2nMxLiQH-WtwK61FXSGCMFKUQW6OjR8J/s400/funny-face-bald-eyes-pop-out.jpg");
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
