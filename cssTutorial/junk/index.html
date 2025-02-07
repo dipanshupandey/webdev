@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Website Ever</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(255,255,255,0.5);
+        }
+        .hero {
+            padding: 120px 20px;
+            position: relative;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .btn {
+            padding: 15px 40px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            background: #e68900;
+            transform: scale(1.1);
+            box-shadow: 0px 0px 15px rgba(255,152,0,0.7);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            gap: 20px;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 20px;
+            width: 30%;
+            box-shadow: 0px 0px 10px rgba(255,255,255,0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        .feature-card:hover {
+            transform: scale(1.1);
+        }
+        .contact {
+            margin-top: 80px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(255,255,255,0.3);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Welcome to the Best Website Ever</h1>
+        <p>The pinnacle of design, innovation, and performance.</p>
+        <button class="btn">Explore Now</button>
+    </div>
+    
+    <div class="container">
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div class="feature-card">🚀 Blazing Fast Speed</div>
+            <div class="feature-card">🎨 Cutting-Edge Aesthetics</div>
+            <div class="feature-card">🔒 Unmatched Security</div>
+        </div>
+    </div>
+    
+    <div class="contact">
+        <h2>Get in Touch</h2>
+        <p>Email: contact@bestwebsite.com</p>
+        <p>Follow us on social media for updates!</p>
+    </div>
+</body>
+</html>

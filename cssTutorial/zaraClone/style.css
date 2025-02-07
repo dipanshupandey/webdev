@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Neue-Helvetica", "Helvetica", "Arial", "sans-serif";
+}
+
+
+.nav{
+    position: fixed;  /* Stick to the top */
+    top: 0;
+    left: 0;
+    background: transparent; 
+    z-index: 1000; 
+
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+
+body {
+    padding-top: 150px; /* Same as navbar height */
+}
+
+
+.nav-menu{
+    height: 64px;
+    width: 64px;
+    background-image: url("https://img.icons8.com/?size=100&id=0Dz6dK7b1UiN&format=png&color=000000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    
+    
+}
+
+.nav-logo{
+    height: 109px;
+    width: 261px;
+    padding: 0px 0px 0px 48px;
+    /* border: 2px solid black; */
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image: url("E:\\webdev\\cssTutorial\\zaraClone\\assets\\logozara.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-opt{
+    font-size: 11px;
+    width: 244px;
+    height: 40px;
+    padding: 24px 0px 0px;
+    margin-left: auto;
+    
+}
+.nav-opt>ul>li>a{
+ text-decoration: none;
+ color: #000000;
+ 
+ 
+}
+.nav-opt>ul{
+    list-style: none;
+    display: flex;
+    
+    gap: 20px;
+}
+
+
+.hero-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    height: 85%;
+    width: 20%;
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.cap{
+    font-size: 0.5rem;
+    padding-top: 1rem;
+}
+
+
+.foot{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter{
+    text-align: center;
+    font-size: 11px;
+}
+
+.newsletter>ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 10px;
+}
+.newsletter>ul>li>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer{
+    margin-left: 120px;
+    margin-bottom: 60px;
+   
+}
+footer>p{
+    font-size: 0.6rem;
+    
+}
