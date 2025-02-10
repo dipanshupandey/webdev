@@ -49,7 +49,7 @@ body {
 .logo{
     height: 100%;
     width: 100%;
-    background-image: url("E:\\webdev\\cssTutorial\\zaraClone\\assets\\logozara.png");
+    background-image: url("assets\\logozara.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
