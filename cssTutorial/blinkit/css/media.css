@@ -1,6 +1,9 @@
 @media (min-width:200px) and (max-width:575px) {
     header{
         flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
     }
 
     .logo{
@@ -21,4 +24,79 @@
     .header_left{
         justify-content: center;
     }
+
+    .search-box button{
+        padding: 10px;
+    }    
+
+
+    .header-right{
+
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        justify-content: center;
+        margin-right: 0;
+        background-color: white;
+        /* margin-top: 20px; */
+    }
+
+    .order-banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .category_items{
+        flex-basis: 25%;
+    }
+
+    .productItem{
+        flex-basis: 49%;
+    
+    }
+
+    .productSection{
+        padding: 30px 10px;
+    }
+
+    footer{
+        padding: 0px;
+    }
+
+    .footmid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .foot-category{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .foot-category ul {
+        width: 48%; /* Each list takes almost half of the row */
+        margin-bottom: 15px; /* Space between rows */
+    }
+
+    .foot-mid-row3 p{
+        padding: 0px 10px;
+    }
+
+    .foot-mid-row2{
+        flex-direction: column;
+    }
+    .mid-one{
+        margin-bottom: 10px;
+
+    }
+    .mid-two{
+        margin-bottom: 10px;
+    }
+
+    .mid-three{
+        margin-bottom: 10px;
+    }
+
+    
 }
+
+
