@@ -14,19 +14,22 @@
         <h1>Stone Paper Scissors</h1>
     </header>
     <div class="mid">
-        <div id="stone"   class="item" ><img src="rock.png" alt=""> <p>rock</p></div>
-        <div id="paper"   class="item" ><img src="paper.png" alt=""> <p>paper</p></div>
-        <div id="scissors" class="item" ><img src="scissors.png" alt=""> <p>scissors</p></div>
+        <div class="item" ><img  id="stone"  src="rock.png" alt=""> <p>rock</p></div>
+        <div class="item" ><img id="paper"  src="paper.png" alt=""> <p>paper</p></div>
+        <div class="item" ><img id="scissors" src="scissors.png" alt=""> <p>scissors</p></div>
     </div>
     <div class="score">
         <div id="player">
-            <h1>0</h1>
+            <h1 id="pscore">0</h1>
             <p>Your Score</p>
         </div>
         <div id="computer">
-            <h1>0</h1>
+            <h1 id="cscore">0</h1>
             <p>Computer Score</p>
         </div>
+    </div>
+    <div class="label">
+        <h2 id="desc">Play Your Move</h2>
     </div>
     <script src="script.js"></script>
 </body>
