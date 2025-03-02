@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive; /* Fun & playful font */
+}
+body{
+    background-color: #FFE3DB;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #FFF5E1; /* Soft warm white */
+    background-color: #5A3E2B; /* Rich brown for an elegant look */
+    font-size: 20px;
+    font-weight: bold;
+    
+    letter-spacing: 2px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); Cool shadow effect */
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); Subtle shadow for depth */
+}
+
+
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 3vw;
+    margin-top: 20px;
+}
+#stone,#paper,#scissors{
+    height: 400px;
+    width: 200px;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+
+#stone:hover, #paper:hover, #scissors:hover {
+    border: 2px solid #FBB03B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    cursor: pointer;
+    
+}
+
+
+.mid>div>img{
+    width: 100%;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player,#computer{
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
