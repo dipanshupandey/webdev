@@ -1,6 +1,7 @@
-let stone=document.querySelector("#stone")
-let paper=document.querySelector("#paper")
-let scissors=document.querySelector("#scissors")
+// let stone=document.querySelector("#stone")
+// let paper=document.querySelector("#paper")
+// let scissors=document.querySelector("#scissors")
+let elements = document.querySelectorAll(".item img");
 let desc=document.querySelector("#desc")
 let label=document.querySelector(".label")
 let userScore=0
@@ -49,6 +50,8 @@ function game(event){
         desc.style.border="5px solid red"
     }
 } 
-stone.addEventListener("click",game)
-paper.addEventListener("click",game)
-scissors.addEventListener("click",game)
+// stone.addEventListener("click",game)
+// paper.addEventListener("click",game)
+// scissors.addEventListener("click",game)
+
+elements.forEach(img=> img.addEventListener("click",game))
