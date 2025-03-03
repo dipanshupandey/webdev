@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #98D8EF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax;
+    background-color: #FFF574;
+    color: #543A14;
+}
+#desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#target{
+    color: #1A1A19;
+    text-align: center;
+    
+}
+
+
+#logo{
+    margin-left: 20px;
+}
+#score{
+    margin-right: 20px;
+}
+
+#playGround{
+    position: relative;
+}
+
+#falling-image {
+    position: absolute;
+    top: -150px;
+    animation: fall 5s ease-in forwards;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+
+@keyframes fall {
+    0% { top:-150px; }
+    100% { top:100vh; }
+}
